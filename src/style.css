@@ -10,3 +10,13 @@ body {
   border: 1px solid red;
 }
 
+#mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  flex: 0 0 20%;
+  border: 1px solid black;
+  padding: 5px;
+}
